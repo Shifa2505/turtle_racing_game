@@ -28,9 +28,9 @@ while is_race_on:
             is_race_on = False
             winner = turtle.pencolor()
             if user_bet == winner:
-                print(f"You've won! The {winner} turtle has won.")
+                print(f"You've won! The {winner} turtle has won the race.")
             else:
-                print(f"You've lost! The {winner} turtle has won.")
+                print(f"You've lost! The {winner} turtle has won the race.")
 
         rand_distance = random.randint(0, 10)
         turtle.forward(rand_distance)
